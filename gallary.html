@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<title>Gallary</title>
+<style>
+body
+{
+background-color:black;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  font-family: Broadway;
+  padding: 32px;
+}
+.f
+{
+text-align: center;
+  font-family: Showcard Gothic;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1 style="color:white;">@ DINNER IN SKY @</h1>
+<div class:"f">
+  <p style="color:white;">:) Food is the ingredient that binds us Together :)</p>
+</div>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="i7.JPEG" style="width:100%">
+    <img src="i9.JPEG" style="width:100%">
+    <img src="i3.JPEG" style="width:100%">
+    <img src="i4.JPEG" style="width:100%">
+    <img src="i5.JPEG" style="width:100%">
+    <img src="i6.JPEG" style="width:100%">
+    <img src="i2.JPEG" style="width:100%">
+    <img src="i27.JPG" style="width:100%">
+    <img src="i1.JPEG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="i31.JPG" style="width:100%">
+    <img src="i29.JPG" style="width:100%">
+    <img src="i32.JPG" style="width:100%">
+    <img src="i11.JPEG" style="width:100%">
+    <img src="i12.JPEG" style="width:100%">
+    <img src="i13.JPEG" style="width:100%">
+    <img src="i28.JPG" style="width:100%">
+    <img src="i8.JPEG" style="width:100%">
+    <img src="i10.JPEG" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="i30.JPG" style="width:100%">
+    <img src="i15.JPEG" style="width:100%">
+    <img src="i16.JPEG" style="width:100%">
+    <img src="i17.JPEG" style="width:100%">
+    <img src="i18.JPEG" style="width:100%">
+    <img src="i19.JPEG" style="width:100%">
+    <img src="i20.JPEG" style="width:100%">
+    <img src="i14.JPEG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="i29.JPG" style="width:100%">
+    <img src="i26.JPG" style="width:100%">
+    <img src="i23.JPEG" style="width:100%">
+    <img src="i24.JPG" style="width:100%">
+    <img src="i25.JPG" style="width:100%">
+    <img src="i22.JPEG" style="width:100%">
+    <img src="i21.JPEG" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
